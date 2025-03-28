@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Root element of Log4j2 configuration -->
+<Configuration status="WARN">
+
+    <Properties>
+        <!-- Base path where log files will be stored -->
+        <Property name="basePath">./logs</Property>
+    </Properties>
+
+    <!-- Define the different types of appenders (Console, File, etc.) -->
+    <Appenders>
+
+        <!-- Console appender: logs messages to the console -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <!-- Log message format for console output -->
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <!-- RollingFile appender: logs to a file with rolling policy -->
+        <RollingFile name="File"
+                     fileName="${basePath}/automation.log"
+                     filePattern="${basePath}/automation-%d{yyyy-MM-dd}.log">
+            <!-- Log message format for file output -->
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+
+            <!-- Roll the log file when it exceeds 5000 bytes -->
+            <SizeBasedTriggeringPolicy size="5000"/>
+        </RollingFile>
+
+    </Appenders>
+
+    <!-- Define loggers and log levels -->
+    <Loggers>
+
+        <!-- Root logger with debug level (captures all logs from debug and above) -->
+        <Root level="Info">
+            <!--  enable console logging by uncommenting the below line -->
+            <!-- <AppenderRef ref="Console"/> -->
+
+            <!-- Enable file logging -->
+            <AppenderRef ref="File"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>

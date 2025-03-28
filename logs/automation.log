@@ -1,0 +1,9 @@
+11:08:27.812 [main] INFO  testCases.TC002_LoginTest - ------Finished LoginTest----
+12:13:41.662 [main] INFO  testCases.TC002_LoginTest - -----Starting LoginTest-----
+12:13:42.073 [main] INFO  testCases.TC002_LoginTest - Clicked login 
+12:13:42.203 [main] INFO  testCases.TC002_LoginTest - Clicked on Login Button
+12:13:43.120 [main] INFO  testCases.TC002_LoginTest - ------Finished LoginTest----
+12:32:53.446 [main] INFO  testCases.TC002_LoginTest - -----Starting LoginTest-----
+12:32:53.882 [main] INFO  testCases.TC002_LoginTest - Clicked login 
+12:32:54.855 [main] INFO  testCases.TC002_LoginTest - Clicked on Login Button
+12:32:54.876 [main] INFO  testCases.TC002_LoginTest - ------Finished LoginTest----
