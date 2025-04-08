@@ -1,3 +1,4 @@
+
 # OpenCart Automation Project
 
 This project is an automated test suite for the **OpenCart** web application. The main functionalities automated include **Account Registration** and **Login**, implemented using Java, Selenium WebDriver, and TestNG with a **Hybrid Framework** approach.
@@ -22,6 +23,7 @@ This project is an automated test suite for the **OpenCart** web application. Th
 - **XML-Based Execution:** TestNG XML files control which tests to run.
 - **Configuration File:** `config.properties` centralizes environment and browser settings.
 - **Screenshot Capture:** Captures screenshots on test failure.
+- **Manual Test Cases in Excel:** Separate Excel sheets created for **Login** and **Registration** test scenarios and included in the project under the `testData/` folder.
 
 ## How to Run the Project
 
@@ -48,5 +50,5 @@ This project is an automated test suite for the **OpenCart** web application. Th
 
 ## Author
 
-**Komal A  Kalkutkar**  
+**Komal A Kalkutkar**  
 
