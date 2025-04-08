@@ -7,3 +7,10 @@
 12:32:53.882 [main] INFO  testCases.TC002_LoginTest - Clicked login 
 12:32:54.855 [main] INFO  testCases.TC002_LoginTest - Clicked on Login Button
 12:32:54.876 [main] INFO  testCases.TC002_LoginTest - ------Finished LoginTest----
+11:34:53.654 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/komalk/Desktop/opencart/Framework/Opencart/master.xml
+
+11:35:02.939 [main] INFO  testCases.TC002_LoginTest - -----Starting LoginTest-----
+11:35:03.314 [main] INFO  testCases.TC002_LoginTest - Clicked login 
+11:35:03.465 [main] INFO  testCases.TC002_LoginTest - Clicked on Login Button
+11:35:04.455 [main] INFO  testCases.TC002_LoginTest - ------Finished LoginTest----
