@@ -1,16 +1,27 @@
-11:08:27.812 [main] INFO  testCases.TC002_LoginTest - ------Finished LoginTest----
-12:13:41.662 [main] INFO  testCases.TC002_LoginTest - -----Starting LoginTest-----
-12:13:42.073 [main] INFO  testCases.TC002_LoginTest - Clicked login 
-12:13:42.203 [main] INFO  testCases.TC002_LoginTest - Clicked on Login Button
-12:13:43.120 [main] INFO  testCases.TC002_LoginTest - ------Finished LoginTest----
-12:32:53.446 [main] INFO  testCases.TC002_LoginTest - -----Starting LoginTest-----
-12:32:53.882 [main] INFO  testCases.TC002_LoginTest - Clicked login 
-12:32:54.855 [main] INFO  testCases.TC002_LoginTest - Clicked on Login Button
-12:32:54.876 [main] INFO  testCases.TC002_LoginTest - ------Finished LoginTest----
-11:34:53.654 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  /Users/komalk/Desktop/opencart/Framework/Opencart/master.xml
+10:46:20.393 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/komalk/Desktop/opencart/Framework/Opencart/testngmaster.xml
 
-11:35:02.939 [main] INFO  testCases.TC002_LoginTest - -----Starting LoginTest-----
-11:35:03.314 [main] INFO  testCases.TC002_LoginTest - Clicked login 
-11:35:03.465 [main] INFO  testCases.TC002_LoginTest - Clicked on Login Button
-11:35:04.455 [main] INFO  testCases.TC002_LoginTest - ------Finished LoginTest----
+10:46:24.394 [main] INFO  testCases.TC001_AccountRegisterTest - -----Starting TC001_AccountRegisterTest-----
+10:46:25.133 [main] INFO  testCases.TC001_AccountRegisterTest - Clicked on My Account and Register option
+10:46:25.135 [main] INFO  testCases.TC001_AccountRegisterTest - Providing Details..
+10:46:36.421 [main] INFO  testCases.TC001_AccountRegisterTest - Validating the message
+10:46:36.435 [main] INFO  testCases.TC001_AccountRegisterTest - ----Finished TC001_AccountRegistrationTest----
+10:46:39.665 [main] INFO  testCases.TC002_LoginTest - -----Starting LoginTest-----
+10:46:40.072 [main] INFO  testCases.TC002_LoginTest - Clicked login 
+10:46:40.227 [main] INFO  testCases.TC002_LoginTest - Clicked on Login Button
+10:46:41.625 [main] INFO  testCases.TC002_LoginTest - ------Finished LoginTest----
+10:46:45.058 [main] INFO  testCases.TC004_SearchTest - ----SearchTest for Invalid data Starting ------
+10:46:45.516 [main] INFO  testCases.TC004_SearchTest - ----SearchTest for invalid data Finished  ------
+10:46:45.517 [main] INFO  testCases.TC004_SearchTest - ----SearchTest Starting ------
+10:46:46.110 [main] INFO  testCases.TC004_SearchTest - ----SearchTest Finished ------
+10:46:49.348 [main] INFO  testCases.TC005_AddToCartTest - ----AddToCart Test Started-----
+10:46:51.055 [main] INFO  testCases.TC005_AddToCartTest - ----AddToCart Test Finished ----
+10:46:54.248 [main] INFO  testCases.TC006_ShoppingCartTest - ---VerifyProductInCart Test Started-----
+10:46:56.099 [main] INFO  testCases.TC006_ShoppingCartTest - ---VerifyProductInCart Test Finished-----
+10:46:59.314 [main] INFO  testCases.TC007_CheckOutTest - ---CompleteCheckOut Test Started-----
+10:47:00.766 [main] INFO  testCases.TC007_CheckOutTest - User Logged In
+10:47:01.354 [main] INFO  testCases.TC007_CheckOutTest - User Searched the Product
+10:47:02.263 [main] INFO  testCases.TC007_CheckOutTest - User added the product to cart
+10:47:02.855 [main] INFO  testCases.TC007_CheckOutTest - User is in Shopping cart Page 
+10:47:08.673 [main] INFO  testCases.TC007_CheckOutTest - Completed checkout
+10:47:11.707 [main] INFO  testCases.TC007_CheckOutTest - ---CompleteCheckOut Test Finished -----
